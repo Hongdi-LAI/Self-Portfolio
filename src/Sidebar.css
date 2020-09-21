@@ -67,7 +67,7 @@
     margin-left: auto;
     margin-right: auto;
     font-weight: 200; 
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .sidebar__employ > p {
@@ -82,4 +82,18 @@
 .sidebar__seperate {
     margin-top: 5px;
     color: lightgray;
+}
+
+.sidebar__phone > p {
+    font-weight: 200;
+    font-size: medium;
+    margin-left: 5px;
+}
+
+.sidebar__phone {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
 }

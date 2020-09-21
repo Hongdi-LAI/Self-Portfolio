@@ -1,16 +1,16 @@
 import React from 'react';
 import './Sidebar.css';
 import {IconButton} from '@material-ui/core';
+import {Link} from 'react-router-dom';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import EmailIcon from '@material-ui/icons/Email';
 import BusinessIcon from '@material-ui/icons/Business';
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 
 
 function Sidebar() {
-    
-    
     
     return (
         <div className = "sidebar">
@@ -44,22 +44,28 @@ function Sidebar() {
                 <BusinessIcon />
                 <p>DHI Singapore</p>
             </a>
+            
+            <div className = "sidebar__phone">
+                <WhatsAppIcon/>
+                <p>{"+33 621879453"}</p>
+            </div>
+
 
             <p className = "sidebar__seperate">_____________________</p>
 
             {/* Social Media and stuff */}
             <div className = "sidebar__contact">
-                
                 <IconButton  href = {"https://github.com/Hongdi-LAI"} target="_blank"> 
                     <GitHubIcon />
                 </IconButton>
                 <IconButton  href = {"https://www.linkedin.com/in/hongdilai/"} target="_blank">
                     <LinkedInIcon />
                 </IconButton>
-                {/* an email writing pop-up */}
-                <IconButton  href = {"https://github.com/Hongdi-LAI"} target="_blank">
-                    <EmailIcon />
-                </IconButton>
+                <Link to= '/contact'>
+                    <IconButton>
+                        <EmailIcon />
+                    </IconButton>
+                </Link>
             </div>
 
             {/* Personal Interests */}

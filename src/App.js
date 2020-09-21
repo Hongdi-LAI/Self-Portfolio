@@ -1,8 +1,13 @@
 import React, {useEffect} from 'react';
 import './App.css';
-import ContentBody from './ContentBody';
 import ContentHeader from './ContentHeader';
 import Sidebar from './Sidebar';
+import Projects from './Projects';
+import Contact from './Contact';
+import Resume from './Resume';
+import About from './About';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+
 
 
 function App() {
@@ -16,20 +21,28 @@ function App() {
     
     <div className="app">
       <div className = "app__body">
-
-      {/* Sidebar - Personal Info */}
-      <Sidebar />
-      {/* Main Body */}
-
-        <div className = "app__content">
-          <ContentHeader />
-          <ContentBody />
-        </div>
-      
-      
-        {/* Header - Menu */}
-        {/* Body */}
-
+        <Router>
+          <Sidebar />
+            <div className = "app__content">
+              <ContentHeader />
+                <div className = "app__contentBody">
+                  <Switch>
+                    <Route path = '/contact'>
+                        <Contact />
+                    </Route>
+                    <Route path = '/projects'>
+                        <Projects />
+                    </Route>
+                    <Route path = '/skills'>
+                        <Resume />
+                    </Route>
+                    <Route path = '/'>
+                        <About/>
+                    </Route>
+                  </Switch>
+                </div>
+            </div>
+        </Router> 
       </div>
     </div>
   );

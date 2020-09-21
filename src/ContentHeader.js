@@ -3,16 +3,23 @@ import './ContentHeader.css'
 import {Link} from 'react-router-dom';
 
 function ContentHeader() {
+
     return (
         <div className = "contentHeader">
-
             <div className = "contentHeader__menu">
-
-                <p>About</p>
-                <p>Projects</p>
-                <p>Skills</p>
+                <Link to= '/'>
+                    <p>About</p>
+                </Link>
+                <Link to= '/projects'>
+                    <p>Projects</p>
+                </Link>
+                <Link to= '/Resume'>
+                    <p>Résumé</p>
+                </Link>
+                <Link to= '/contact'>
+                    <p>Contact</p>
+                </Link>
             </div>
-            
         </div>
     )
 }
