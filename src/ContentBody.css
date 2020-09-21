@@ -1,0 +1,25 @@
+.contentBody {
+    display: flex;
+    background-color: #f0eeee;
+    box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    border: 0.5px solid lightgray;
+    width: 80vw;
+    height: 82vh;
+    overflow: scroll;
+    -ms-overflow-style: none; /* IE and Edge */ 
+    scrollbar-width: none; /* Firefox */  
+}
+
+.contentBody__text {
+    padding: 10px;
+    padding-left: 15px;
+}
+
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.contentBody::-webkit-scrollbar {
+    display: none;
+  }
+

@@ -1,11 +1,19 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './App.css';
-import Content from './Content';
+import ContentBody from './ContentBody';
+import ContentHeader from './ContentHeader';
 import Sidebar from './Sidebar';
 
 
 function App() {
+  
+  // App Title
+  useEffect(() => {
+    document.title = "Portfolio - Hongdi LAI"
+  }, []);
+
   return (
+    
     <div className="app">
       <div className = "app__body">
 
@@ -13,7 +21,12 @@ function App() {
       <Sidebar />
       {/* Main Body */}
 
-      <Content />
+        <div className = "app__content">
+          <ContentHeader />
+          <ContentBody />
+        </div>
+      
+      
         {/* Header - Menu */}
         {/* Body */}
 

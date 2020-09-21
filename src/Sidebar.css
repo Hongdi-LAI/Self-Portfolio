@@ -4,9 +4,11 @@
     background-color: #f0eeee;
     box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.75);
     border-radius: 20px;
-    margin-right: 20px;
-    height: 80vh;
-    justify-content: center;
+    border: 0.5px solid lightgray;
+    margin-right: 1vw;
+    height: 90vh;
+    min-width: 190px;
+    justify-content: initial;
     text-align: center;
     overflow: scroll;
     -ms-overflow-style: none; /* IE and Edge */ 
@@ -18,11 +20,66 @@
     display: none;
   }
 
-.sidebar > img {
+.sidebar__icon > img {
     object-fit: contain;
-    width: 200px;
-    padding: 30px; 
+    width: 120px; 
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
+    border: 0.5px solid lightgray;
+}
+
+.sidebar__icon {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: lightgray
+}
+
+
+
+.sidebar__info > h2 {
+    font-weight: 300;
+}
+
+.sidebar__info > p {
+    margin-top: 10px;
+    font-weight: 200;
+}
+
+.sidebar__location {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: 200;    
+}
+
+.sidebar__location > p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sidebar__employ {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 200; 
+    margin-bottom: 20px;
+}
+
+.sidebar__employ > p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+* >  .MuiSvgIcon-root {
+    color: rgba(128, 128, 128, 0.808) !important;
+}
+
+.sidebar__seperate {
+    margin-top: 5px;
+    color: lightgray;
 }

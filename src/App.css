@@ -3,12 +3,17 @@
   place-items: center;
   /* center inside the container */
   height: 100vh;
-  background-color: rgba(255, 192, 203, 0.13);
+  background-color: rgba(250, 200, 208, 0.075);
 }
 
 .app__body {
   display: flex;
   flex-direction: row;
+}
+
+.app__content {
+  display: flex;
+  flex-direction: column;
 }
 
 /*
