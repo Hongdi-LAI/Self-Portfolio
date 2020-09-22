@@ -33,7 +33,7 @@ function App() {
                     <Route path = '/projects'>
                         <Projects />
                     </Route>
-                    <Route path = '/skills'>
+                    <Route path = '/resume'>
                         <Resume />
                     </Route>
                     <Route path = '/'>

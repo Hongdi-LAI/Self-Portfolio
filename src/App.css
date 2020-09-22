@@ -14,16 +14,21 @@
 .app__content {
   display: flex;
   flex-direction: column;
+  max-height: 90vh;
 }
 
 .app__contentBody {
     display: flex;
     background-color: #f0eeee;
-    box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.75);
-    border-radius: 20px;
+    /* box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.75); */
+    /* border-radius: 20px; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     border: 0.5px solid lightgray;
-    width: 80vw;
-    height: 82vh;
+    border-top: none;
+    width: 75vw;
+    height: 84vh;
+    min-width: 500px;
     overflow: scroll;
     -ms-overflow-style: none; /* IE and Edge */ 
     scrollbar-width: none; /* Firefox */ 
@@ -33,13 +38,3 @@
   display: none;
 }
 
-/*
-.app__body {
-  display: flex;
-  background-color: #f0eeee;
-  height: 80vh;
-  width: 80vw;
-  box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.75);
-  border-radius: 20px;
-}
-*/

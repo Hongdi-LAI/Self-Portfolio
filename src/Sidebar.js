@@ -22,34 +22,29 @@ function Sidebar() {
                 />
                 <p>_____________________</p>
             </div>
-
             {/* Name and work */}
-            <div className = "sidebar__info">
+            <div className = "sidebar__person">
                 <h2>Hongdi LAI</h2>
                 <p> Software/Web Developer </p>
             </div>
+            <div className = "sidebar__info">
+                <div className = "sidebar__phone">
+                    <WhatsAppIcon/>
+                    <p>{"+33 621879453"}</p>
+                </div>
 
-            
-
-            {/* Personal Photo */}
-            <div className = "sidebar__location">
-                <LocationOnIcon/>
-                <p>Singapore</p>
+                <div className = "sidebar__location">
+                    <LocationOnIcon/>
+                    <p>Singapore</p>
+                </div>
+                <a
+                className = "sidebar__employ" 
+                href = {"https://www.dhigroup.com/dhi-worldwide/sg"} 
+                target = "_blank">
+                    <BusinessIcon />
+                    <p>DHI Singapore</p>
+                </a>
             </div>
-
-            <a
-            className = "sidebar__employ" 
-            href = {"https://www.dhigroup.com/dhi-worldwide/sg"} 
-            target = "_blank">
-                <BusinessIcon />
-                <p>DHI Singapore</p>
-            </a>
-            
-            <div className = "sidebar__phone">
-                <WhatsAppIcon/>
-                <p>{"+33 621879453"}</p>
-            </div>
-
 
             <p className = "sidebar__seperate">_____________________</p>
 

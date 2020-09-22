@@ -2,12 +2,12 @@
     display: flex;
     flex-direction: column;
     background-color: #f0eeee;
-    box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.75);
+    /* box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.75); */
     border-radius: 20px;
     border: 0.5px solid lightgray;
-    margin-right: 1vw;
+    margin-right: 15px;
     height: 90vh;
-    min-width: 190px;
+    min-width: 210px;
     justify-content: initial;
     text-align: center;
     overflow: scroll;
@@ -32,26 +32,43 @@
 .sidebar__icon {
     margin-top: 50px;
     margin-bottom: 10px;
-    color: lightgray
+    color: lightgray;
 }
 
+.sidebar__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
 
-
-.sidebar__info > h2 {
+.sidebar__person > h2 {
     font-weight: 300;
 }
 
-.sidebar__info > p {
+.sidebar__person > p {
     margin-top: 10px;
     font-weight: 200;
+}
+
+
+.sidebar__phone > p {
+    font-weight: 200;
+    font-size: medium;
+    margin-left: 5px;
+}
+
+.sidebar__phone {
+    padding-left: 1px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .sidebar__location {
     display: flex;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
     margin-bottom: 10px;
     font-weight: 200;    
 }
@@ -64,8 +81,6 @@
 .sidebar__employ {
     display: flex;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
     font-weight: 200; 
     margin-bottom: 10px;
 }
@@ -75,25 +90,8 @@
     margin-right: 5px;
 }
 
-* >  .MuiSvgIcon-root {
-    color: rgba(128, 128, 128, 0.808) !important;
-}
 
 .sidebar__seperate {
     margin-top: 5px;
     color: lightgray;
-}
-
-.sidebar__phone > p {
-    font-weight: 200;
-    font-size: medium;
-    margin-left: 5px;
-}
-
-.sidebar__phone {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
 }

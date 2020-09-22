@@ -18,7 +18,7 @@
 
 .projectCard > img {
     object-fit: fill;
-    max-width: 310px;
+    max-width: 290px;
     max-height: 300px;
     width: 100%;
     border-bottom: 0.6px solid lightgray;
