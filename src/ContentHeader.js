@@ -5,14 +5,18 @@ import EmojiPeopleIcon from '@material-ui/icons/EmojiPeople';
 import AppsIcon from '@material-ui/icons/Apps';
 import ChromeReaderModeIcon from '@material-ui/icons/ChromeReaderMode';
 import PermContactCalendarIcon from '@material-ui/icons/PermContactCalendar';
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
+
 
 function ContentHeader() {
 
-
     return (
         <div className = "contentHeader">
-            
                 <div className = "contentHeader__menu">
+                    <div className = "contentHeader__menuText">
+                        <h4>Portolio Menu</h4>
+                        <ChevronRightIcon />
+                    </div>
                     <p>|</p>
                     <EmojiPeopleIcon/>
                     <Link to= '/'>    

@@ -1,0 +1,7 @@
+.contact {
+    margin: 20px 40px;
+}
+
+.contact__title > h1 {
+    font-weight: 200;
+}

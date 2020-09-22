@@ -1,0 +1,13 @@
+.about {
+    margin: 20px 40px;
+}
+
+.about__title > h1 {
+    font-weight: 200;
+    margin-bottom: 20px ;
+
+}
+
+.about__body > p {
+    font-weight: 200;
+}

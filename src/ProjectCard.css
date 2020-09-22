@@ -1,25 +1,23 @@
 .projectCard {
-    margin: 15px 10px;
-    margin-left: 18px;
+    margin: 15px 12px;
     border-radius: 10px;
     border: 0.5px solid lightgray;
     background-color: whitesmoke;
     /* card shape change with img content hidden depends on the shape*/
     overflow: hidden;
     box-shadow: 0px 6px 18px -9px rgba(0,0,0,0.75);
-    /*transition: transform 100ms ease-in;*/
+    transition: transform 100ms ease-in;
 }
 
-/*
+
 .projectCard:hover {
     transform: scale(1.01);
 }
-*/
+
 
 .projectCard > img {
     object-fit: fill;
-    max-width: 290px;
-    max-height: 300px;
+    
     width: 100%;
     border-bottom: 0.6px solid lightgray;
     border-top: 0.5px solid lightgray;
@@ -49,7 +47,8 @@
 .projectCard__views > a {
     display: flex;
     padding: 5px;
-    width: 130px;
+    margin: 0 10px;
+    width: 80%;
     border-radius: 19px;
     border: 0.5px solid lightgray;
     background-color: rgba(211, 211, 211, 0.212);

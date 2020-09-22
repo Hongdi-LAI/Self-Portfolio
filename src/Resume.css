@@ -1,0 +1,7 @@
+.resume {
+    margin: 20px 40px;
+}
+
+.resume__title > h1 {
+    font-weight: 200;
+}

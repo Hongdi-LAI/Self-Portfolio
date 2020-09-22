@@ -6,9 +6,9 @@
     /* border-radius: 20px; */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 75vw;
+    width: 65vw;
     height: 6vh;
-    min-width: 500px;
+    min-width: 630px;
     min-height: 35px;
     /* margin-bottom: 10px; */
     align-items: center;
@@ -36,13 +36,24 @@
     color: rgb(202, 199, 199);
 }
 
+.contentHeader__menuText {
+    display: flex;
+    margin-right: 15px;
+}
+
+.contentHeader__menuText > h4 {
+    margin-right: 7px;
+    margin-left: 10px;
+    font-weight: 200;
+}
+
 .contentHeader__menu > .MuiSvgIcon-root {
     margin-left: 10px !important;
-    margin-right: -13px !important;
+    margin-right: 0px !important;
 }
 
 .contentHeader__menuDetail {
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 .contentHeader__menuDetail:hover {

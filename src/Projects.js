@@ -18,20 +18,14 @@ function Projects() {
                     AppUrl = "https://whatsapp-clone-847bd.web.app/"
                     CodeUrl = "https://github.com/Hongdi-LAI/Whatsapp-clone"
                 />
+                
+            </div>
+            <div className = "projects__row">
                 <ProjectCard 
                     img = {require("./image/Airbnb-Profile.PNG")}
                     name = "Online Marketplace - Airbnb Clone"
                     AppUrl = "https://airbnb-clone-d469f.web.app/"
                     CodeUrl = "https://github.com/Hongdi-LAI/Airbnb-clone"
-                />
-            </div>
-
-            <div className = "projects__row">
-                <ProjectCard 
-                    img = {require("./image/Spotify-Profile.PNG")}
-                    name = "Music Streaming Service - Spotify Clone"
-                    AppUrl = "https://spotify-clone-5603e.web.app"
-                    CodeUrl = "https://github.com/Hongdi-LAI/Spotify-clone/tree/master/spotify-clone"
                 />
                 <ProjectCard 
                     img = {require("./image/Tinder-Profile.PNG")}
@@ -39,8 +33,15 @@ function Projects() {
                     AppUrl = "https://tinder-clone-b6bc7.web.app/"
                     CodeUrl = "https://github.com/Hongdi-LAI/Tinder-clone"
                 />
-            </div>
-            
+            </div> 
+            <div className = "projects__row">
+                <ProjectCard 
+                    img = {require("./image/Spotify-Profile.PNG")}
+                    name = "Music Streaming Service - Spotify Clone"
+                    AppUrl = "https://spotify-clone-5603e.web.app"
+                    CodeUrl = "https://github.com/Hongdi-LAI/Spotify-clone/tree/master/spotify-clone"
+                />
+            </div> 
         </div>
     )
 }

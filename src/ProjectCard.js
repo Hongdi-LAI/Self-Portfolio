@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProjectCard.css';
-import WebIcon from '@material-ui/icons/Web';
+import LanguageSharpIcon from '@material-ui/icons/LanguageSharp';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 function ProjectCard({ img, name, AppUrl, CodeUrl }) {
@@ -12,7 +12,7 @@ function ProjectCard({ img, name, AppUrl, CodeUrl }) {
                 <img src = {img} alt = "" />
                 <div className = "projectCard__views">
                     <a href = {AppUrl}
-                    target = "_blank">{<WebIcon/>} View Project</a>
+                    target = "_blank">{<LanguageSharpIcon/>} View Project</a>
                     {/*<button
                     
                     > */}
