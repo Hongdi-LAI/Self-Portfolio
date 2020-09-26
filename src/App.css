@@ -19,7 +19,8 @@
 
 .app__contentBody {
     display: flex;
-    background-color: #f0eeee;
+    background-color: #f0eeee28;
+    /* background-color: #f0eeee; */
     /* box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.75); */
     /* border-radius: 20px; */
     border-bottom-left-radius: 20px;

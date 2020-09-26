@@ -16,6 +16,7 @@
 .projects__title > p {
     font-weight: 200;
     margin-bottom: 5px;
+    font-size: small;
 }
 
 .projects__row {

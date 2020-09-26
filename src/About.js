@@ -16,7 +16,7 @@ function About() {
         <div className = "about" >
             <div className = "about__title" id = 'myDiv'>
                 <h1>About Me</h1>
-                <p>Hi! My name is Hongdi and here is some facts about me. :)</p>
+                <p>Hi! My name is Hongdi and here is some facts about me :)</p>
             </div>
 
             <div className = "about__seperate">

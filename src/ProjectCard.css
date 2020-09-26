@@ -2,7 +2,7 @@
     margin: 10px 12px;
     border-radius: 10px;
     border: 0.5px solid lightgray;
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.26);
     /* card shape change with img content hidden depends on the shape*/
     overflow: hidden;
     box-shadow: 0px 6px 18px -9px rgba(0,0,0,0.75);
@@ -50,7 +50,8 @@
     width: 80%;
     border-radius: 19px;
     border: 0.5px solid lightgray;
-    background-color: rgba(211, 211, 211, 0.212);
+    background-color: rgba(245, 245, 245, 0.26);
+    /* background-color: rgba(211, 211, 211, 0.212); */
     justify-content: center;
     align-items: center;
     font-weight: 200;
