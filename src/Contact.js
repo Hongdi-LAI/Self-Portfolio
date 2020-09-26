@@ -27,7 +27,7 @@ function Contact() {
         <div className = "contact">
             <div className = "contact__title">
                 <h1>Contact Me</h1>
-                <p>Send me an Email, or Follow Me on <a href="https://github.com/Hongdi-LAI/" target = "_blank" >GitHub</a>, or Connect with Me on <a href="https://www.linkedin.com/in/hongdilai/" target = "_blank">LinkedIn</a> :)</p>
+                <p>Send Me an Email Down Below, or Follow Me on <a href="https://github.com/Hongdi-LAI/" target = "_blank" >GitHub</a>, or Connect with Me on <a href="https://www.linkedin.com/in/hongdilai/" target = "_blank">LinkedIn</a> :)</p>
             </div>
             <div className = "contact__seperate">
                 <p>———————————————————————— · ————————————————————————</p>
