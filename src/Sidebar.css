@@ -35,6 +35,10 @@
     color: lightgray;
 }
 
+.sidebar__icon > p {
+    font-weight: 200;
+}
+
 .sidebar__info {
     display: flex;
     flex-direction: column;
@@ -60,7 +64,7 @@
 
 .sidebar__phone {
     padding-left: 1px;
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
     align-items: center;
     margin-bottom: 10px;
@@ -90,8 +94,8 @@
     margin-right: 5px;
 }
 
-
 .sidebar__seperate {
     margin-top: 5px;
     color: lightgray;
+    font-weight: 200;
 }

@@ -28,7 +28,7 @@ function ContentHeader() {
                     </Link>
                     <ChromeReaderModeIcon/>
                     <Link to= '/Resume'>
-                        <p className = "contentHeader__menuDetail">Résumé</p>
+                        <p className = "contentHeader__menuDetail">Resume</p>
                     </Link>
                     <PermContactCalendarIcon/>
                     <Link to= '/contact'>

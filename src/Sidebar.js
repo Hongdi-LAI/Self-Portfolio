@@ -17,7 +17,7 @@ function Sidebar() {
             {/* Personal Photo */}
             <div className = "sidebar__icon">
                 <img 
-                src = "https://media-exp1.licdn.com/dms/image/C4D03AQH-gRWzBMsHVw/profile-displayphoto-shrink_400_400/0?e=1606348800&v=beta&t=ssaf3P3CkyWsEwpAQxdsdnorS_rE6IY3cIAqu3f68UA"
+                src = {require("./image/profile.jpg")}
                 alt = ""
                 />
                 <p>_____________________</p>
@@ -30,7 +30,7 @@ function Sidebar() {
             <div className = "sidebar__info">
                 <div className = "sidebar__phone">
                     <WhatsAppIcon/>
-                    <p>{"+33 621879453"}</p>
+                    <p>{"+65 88098616"}</p>
                 </div>
 
                 <div className = "sidebar__location">
@@ -62,10 +62,6 @@ function Sidebar() {
                     </IconButton>
                 </Link>
             </div>
-
-            {/* Personal Interests */}
-
-            {/* Contacts */}
         </div>
     )
 }

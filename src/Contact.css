@@ -1,7 +1,27 @@
 .contact {
-    margin: 20px 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact__title {
+    text-align: center;
 }
 
 .contact__title > h1 {
     font-weight: 200;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.contact__title > p {
+    font-weight: 200;
+}
+
+.contact__seperate {
+    text-align: center;
+    color:lightgray;
+    white-space: nowrap; 
+    overflow: hidden;
+    font-weight: 200;
+    margin-top: 5px;
 }

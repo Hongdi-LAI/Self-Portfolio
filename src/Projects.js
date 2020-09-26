@@ -1,10 +1,24 @@
 import React from 'react';
 import './Projects.css';
+import {Link} from 'react-router-dom';
 import ProjectCard from './ProjectCard';
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
+import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
+
+
 
 function Projects() {
     return (
         <div className = "projects">
+            <div className = "projects__title">
+                <h1>About Projects</h1>
+                <p>Projects and relative code could be accessed respectively down below</p>
+            </div>
+
+            <div className = "projects__seperate">
+                <p>———————————————————————— · ————————————————————————</p>
+            </div>
+            
             <div className = "projects__row">
                 <ProjectCard 
                     img = {require("./image/Amazon-Profile.png")}
@@ -42,6 +56,27 @@ function Projects() {
                     CodeUrl = "https://github.com/Hongdi-LAI/Spotify-clone/tree/master/spotify-clone"
                 />
             </div> 
+
+            <div className = "projects__seperate">
+                <p>———————————————————————— · ————————————————————————</p>
+            </div>
+
+            <div className = "projects__pageChange">
+                <Link to = "/about">
+                    <div className = "projects__pageChangeButton">
+                        <ChevronLeftIcon />
+                        <p>About</p>
+                    </div>
+                </Link>
+                <h5>|</h5>
+                <Link to = "/resume">
+                    <div className = "projects__pageChangeButton">
+                        <p>Resume</p>
+                        <ChevronRightIcon />
+                    </div>
+                </Link>
+            </div>
+            
         </div>
     )
 }
