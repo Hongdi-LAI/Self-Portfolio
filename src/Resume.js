@@ -1,22 +1,21 @@
-import React from 'react';
-import './Resume.css';
-import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
-import {Link} from 'react-router-dom';
+import React from "react";
+import "./Resume.css";
+import ChevronRightIcon from "@material-ui/icons/ChevronRight";
+import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
+import { Link } from "react-router-dom";
 
 function Resume() {
-    return (
-        <div className = "resume">
-            <div className = "resume__title">
-                <h1>My Resume</h1>
-                <p>This page serves as a professional introduction of Hongdi LAI</p>
-            </div> 
+  return (
+    <div className="resume">
+      <div className="resume__title">
+        <h1>My Resume</h1>
+        <p>This page serves as a professional introduction of Hongdi LAI</p>
+      </div>
 
-            <div className = "resume__seperate">
-                <p>———————————————————————— · ————————————————————————</p>
-            </div>
-            {
-            /*
+      <div className="resume__seperate">
+        <p>———————————————————————— · ————————————————————————</p>
+      </div>
+      {/*
               <iframe
             title = "Resume_Hongdi"
             src = {require("./image/CV_Hongdi_LAI.pdf")} 
@@ -24,36 +23,31 @@ function Resume() {
             height = "100%"
             >
             </iframe>
-            */
-            }
-            
-            <img 
-            src = {require("./image/CV_Hongdi_LAI.jpeg")}
-            alt = ""
-            />
+    */}
 
-            <div className = "resume__seperate">
-                <p>———————————————————————— · ————————————————————————</p>
-            </div>
+      <img src={require("./image/CV_Hongdi_LAI.jpeg")} alt="" />
 
-            <div className = "resume__pageChange">
-                <Link to = "/projects">
-                    <div className = "resume__pageChangeButton">
-                        <ChevronLeftIcon />
-                        <p>Projects</p>
-                    </div>
-                </Link>
-                <h5>|</h5>
-                <Link to = "/contact">
-                    <div className = "resume__pageChangeButton">
-                        <p>Contact</p>
-                        <ChevronRightIcon />
-                    </div>
-                </Link>
-            </div>
+      <div className="resume__seperate">
+        <p>———————————————————————— · ————————————————————————</p>
+      </div>
 
-        </div>
-    )
+      <div className="resume__pageChange">
+        <Link to="/projects">
+          <div className="resume__pageChangeButton">
+            <ChevronLeftIcon />
+            <p>Projects</p>
+          </div>
+        </Link>
+        <h5>|</h5>
+        <Link to="/contact">
+          <div className="resume__pageChangeButton">
+            <p>Contact</p>
+            <ChevronRightIcon />
+          </div>
+        </Link>
+      </div>
+    </div>
+  );
 }
 
-export default Resume
+export default Resume;

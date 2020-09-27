@@ -18,24 +18,23 @@
 }
 
 .app__contentBody {
-    display: flex;
-    background-color: #f0eeee28;
-    /* background-color: #f0eeee; */
-    /* box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.75); */
-    /* border-radius: 20px; */
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border: 0.5px solid lightgray;
-    border-top: none;
-    width: 65vw;
-    height: 79vh;
-    min-width: 630px;
-    overflow: scroll;
-    -ms-overflow-style: none; /* IE and Edge */ 
-    scrollbar-width: none; /* Firefox */ 
+  display: flex;
+  background-color: #f0eeee28;
+  /* background-color: #f0eeee; */
+  /* box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.75); */
+  /* border-radius: 20px; */
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 0.5px solid lightgray;
+  border-top: none;
+  width: 65vw;
+  height: 79vh;
+  min-width: 630px;
+  overflow: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .app__contentBody::-webkit-scrollbar {
   display: none;
 }
-
