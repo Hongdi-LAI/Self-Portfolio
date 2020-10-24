@@ -9,7 +9,7 @@ function Projects() {
   return (
     <div className="projects">
       <div className="projects__title">
-        <h1>About Projects</h1>
+        <h1>My Projects</h1>
         <p>
           Projects and relative code could be accessed respectively down below
         </p>
@@ -35,16 +35,16 @@ function Projects() {
       </div>
       <div className="projects__row">
         <ProjectCard
-          img={require("./image/Airbnb-Profile.PNG")}
-          name="Online Marketplace - Airbnb Clone"
-          AppUrl="https://airbnb-clone-d469f.web.app/"
-          CodeUrl="https://github.com/Hongdi-LAI/Airbnb-clone"
+          img={require("./image/COVID19-Tracker-Profile.PNG")}
+          name="Data Dashboard - COVID19-Tracker"
+          AppUrl="https://worldwide-covid-19-tracker.web.app/"
+          CodeUrl="https://github.com/Hongdi-LAI/COVID19-Tracker"
         />
         <ProjectCard
-          img={require("./image/Tinder-Profile.PNG")}
-          name="Online Dating - Tinder Clone"
-          AppUrl="https://tinder-clone-b6bc7.web.app/"
-          CodeUrl="https://github.com/Hongdi-LAI/Tinder-clone"
+          img={require("./image/Facebook-Profile.PNG")}
+          name="Social Media Service - Facebook Clone (MERN Build)"
+          AppUrl="https://facebook-clone-f6dce.web.app/"
+          CodeUrl="https://github.com/Hongdi-LAI/Facebook-clone-mern-frontend"
         />
       </div>
       <div className="projects__row">
@@ -54,10 +54,42 @@ function Projects() {
           AppUrl="https://spotify-clone-5603e.web.app"
           CodeUrl="https://github.com/Hongdi-LAI/Spotify-clone/tree/master/spotify-clone"
         />
+        <ProjectCard
+          img={require("./image/Airbnb-Profile.PNG")}
+          name="Online Marketplace - Airbnb Clone"
+          AppUrl="https://airbnb-clone-d469f.web.app/"
+          CodeUrl="https://github.com/Hongdi-LAI/Airbnb-clone"
+        />
+      </div>
+
+      <div className="projects__row">
+        <ProjectCard
+          img={require("./image/Hulu-Profile.PNG")}
+          name="Video Streaming Service - Hulu Clone"
+          AppUrl="https://hulu-clone-ca4f1.web.app/"
+          CodeUrl="https://github.com/Hongdi-LAI/Hulu_clone"
+        />
+        <ProjectCard
+          img={require("./image/Tinder-Profile.PNG")}
+          name="Online Dating - Tinder Clone"
+          AppUrl="https://tinder-clone-b6bc7.web.app/"
+          CodeUrl="https://github.com/Hongdi-LAI/Tinder-clone"
+        />
+      </div>
+
+      <div className="projects__row">
+        <ProjectCard
+          img={require("./image/Netflix-Profile.PNG")}
+          name="Video Streaming Service - Netflix Clone"
+          AppUrl="https://netflix-clone-51ed1.web.app"
+          CodeUrl="https://github.com/Hongdi-LAI/Netflix_clone"
+        />
       </div>
 
       <div className="projects__seperate">
-        <p>———————————————————————— · ————————————————————————</p>
+        <p className="projects__lastSeperate">
+          ———————————————————————— · ————————————————————————
+        </p>
       </div>
 
       <div className="projects__pageChange">

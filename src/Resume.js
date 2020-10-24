@@ -28,7 +28,9 @@ function Resume() {
       <img src={require("./image/CV_Hongdi_LAI.jpeg")} alt="" />
 
       <div className="resume__seperate">
-        <p>———————————————————————— · ————————————————————————</p>
+        <p className="resume__lastSeperate">
+          ———————————————————————— · ————————————————————————
+        </p>
       </div>
 
       <div className="resume__pageChange">

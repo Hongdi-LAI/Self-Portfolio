@@ -117,3 +117,26 @@
   margin-top: 3px;
   margin-right: -2px;
 }
+
+@media screen and (max-width: 1000px) {
+  .contact__title {
+    border-bottom: 0.5px solid lightgray;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+
+  .contact__title > h1 {
+    font-size: large;
+  }
+
+  .contact__title > p {
+    font-size: x-small;
+  }
+
+  .contact__pageChange {
+    display: none;
+  }
+  .contact__seperate {
+    display: none;
+  }
+}

@@ -15,7 +15,7 @@ function Sidebar() {
       {/* Personal Photo */}
       <div className="sidebar__icon">
         <img src={require("./image/profile.jpg")} alt="" />
-        <p>_____________________</p>
+        <p className="sidebar__seperate">_____________________</p>
       </div>
       {/* Name and work */}
       <div className="sidebar__person">

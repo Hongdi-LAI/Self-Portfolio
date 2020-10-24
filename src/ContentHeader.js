@@ -15,7 +15,7 @@ function ContentHeader() {
           <h4>Portolio Menu</h4>
           <ChevronRightIcon />
         </div>
-        <p>|</p>
+        <p className="contentHeader__menuBreak">|</p>
         <EmojiPeopleIcon />
         <Link to="/">
           <p className="contentHeader__menuDetail">About</p>

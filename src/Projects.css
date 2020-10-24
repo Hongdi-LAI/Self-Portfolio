@@ -70,3 +70,30 @@
   overflow: hidden;
   font-weight: 200;
 }
+
+@media screen and (max-width: 1000px) {
+  .projects__title {
+    border-bottom: 0.5px solid lightgray;
+    margin-bottom: 10px;
+  }
+
+  .projects__title > h1 {
+    font-size: large;
+  }
+
+  .projects__title > p {
+    font-size: x-small;
+    margin-bottom: 10px;
+  }
+
+  .projects__row {
+    flex-direction: column;
+  }
+
+  .projects__pageChange {
+    display: none;
+  }
+  .projects__seperate {
+    display: none;
+  }
+}
