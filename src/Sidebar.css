@@ -100,7 +100,7 @@
   font-weight: 200;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1025px) {
   .sidebar {
     margin-top: 20px;
     margin-right: 0px;

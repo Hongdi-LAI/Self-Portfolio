@@ -66,3 +66,18 @@
   height: 20px;
   margin-right: 5px;
 }
+
+@media screen and (max-width: 500px) {
+  .projectCard > p {
+    font-size: x-small;
+  }
+  .projectCard__views > a > .MuiSvgIcon-root {
+    object-fit: contain;
+    height: 10px;
+    margin-right: 0px;
+  }
+  .projectCard__views > a {
+    padding: 2px;
+    font-size: x-small;
+  }
+}

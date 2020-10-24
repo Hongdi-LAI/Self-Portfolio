@@ -39,7 +39,7 @@
   display: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1025px) {
   .app__body {
     display: flex;
     flex-direction: column;
@@ -47,8 +47,8 @@
 
   .app__contentBody {
     display: unset;
-    width: 90vw;
-    height: 60vh;
+    width: 94vw;
+    height: 66vh;
     /* min-width: 630px; */
     overflow: scroll;
     -ms-overflow-style: none; /* IE and Edge */

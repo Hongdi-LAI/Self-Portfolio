@@ -27,10 +27,10 @@ function Projects() {
           CodeUrl="https://github.com/Hongdi-LAI/Amazon-clone"
         />
         <ProjectCard
-          img={require("./image/Whatsapp-Profile.PNG")}
-          name="Realtime Chatting - Whatsapp Clone"
-          AppUrl="https://whatsapp-clone-847bd.web.app/"
-          CodeUrl="https://github.com/Hongdi-LAI/Whatsapp-clone"
+          img={require("./image/Discord-Profile.PNG")}
+          name="Communication Service - Discord Clone (REDUX)"
+          AppUrl="https://discord-clone-2b376.web.app/"
+          CodeUrl="https://github.com/Hongdi-LAI/Discord-clone-Redux"
         />
       </div>
       <div className="projects__row">
@@ -42,7 +42,7 @@ function Projects() {
         />
         <ProjectCard
           img={require("./image/Facebook-Profile.PNG")}
-          name="Social Media Service - Facebook Clone (MERN Build)"
+          name="Social Media - Facebook Clone (MERN Build)"
           AppUrl="https://facebook-clone-f6dce.web.app/"
           CodeUrl="https://github.com/Hongdi-LAI/Facebook-clone-mern-frontend"
         />
@@ -83,6 +83,12 @@ function Projects() {
           name="Video Streaming Service - Netflix Clone"
           AppUrl="https://netflix-clone-51ed1.web.app"
           CodeUrl="https://github.com/Hongdi-LAI/Netflix_clone"
+        />
+        <ProjectCard
+          img={require("./image/Whatsapp-Profile.PNG")}
+          name="Realtime Chatting - Whatsapp Clone"
+          AppUrl="https://whatsapp-clone-847bd.web.app/"
+          CodeUrl="https://github.com/Hongdi-LAI/Whatsapp-clone"
         />
       </div>
 

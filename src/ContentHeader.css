@@ -60,11 +60,11 @@
   opacity: 0.5;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1025px) {
   .contentHeader {
     margin-top: 2vh;
     justify-content: space-evenly;
-    width: 90vw;
+    width: 94vw;
   }
 
   .contentHeader__menuDetail {

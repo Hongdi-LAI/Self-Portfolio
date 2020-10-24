@@ -36,7 +36,7 @@ function Contact() {
       <div className="contact__title">
         <h1>Contact Me</h1>
         <p>
-          Send Me an Email Down Below, or Connect with Me on{" "}
+          Connect with Me by Email, on{" "}
           <a href="https://github.com/Hongdi-LAI/" target="_blank">
             GitHub
           </a>{" "}
